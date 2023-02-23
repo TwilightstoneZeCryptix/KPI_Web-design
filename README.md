@@ -1,2 +1,3 @@
-# KPI_Web-design
-Repository for a lab works on subject "Web-design"
+Щикалюк Гліб Ігорович, КВ-01, лабораторна робота №1 "Розробка статичного інтерфейсу Web-додатка"
+Загальне завдання: розробити статичні Web-сторінки додатку та перевірити коректне їх відображення на екранах різного розміру
+Звіт: https://docs.google.com/document/d/1WDkJ_xflyy0RPG5fsdImxlZvAOM4EbdIv6YWBQLyUVU/edit?usp=sharing

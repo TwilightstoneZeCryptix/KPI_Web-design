@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <!-- New color classes for Bootstrap -->
+    <link rel="stylesheet" href="bootstrap_new_color_classes.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="bg-cyan-400">
+    <!-- Main content -->
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <h4 class="mb-5">Register new account</h4>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="gender" id="checkMale">
+                        <label class="form-check-label" for="checkMale">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="gender" id="checkFemale">
+                        <label class="form-check-label" for="checkFemale">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline ms-1 mb-3">
+                        <input type="radio" class="form-check-input" name="gender" id="checkOther">
+                        <label class="form-check-label" for="checkOther">Other</label>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="inputDateOfBirth">Date of birth</label>
+                        <input type="date" class="form-control" id="inputDateOfBirth" placeholder="Date of birth">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="inputPassword">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-dark">Register</button>
+                </form>
+                <a href="index.html" class="span mt-3 mb-3">Return to main page</a>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
